@@ -1,10 +1,10 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int i,sum=0,n=5;
+    int fact,i,n=20;
     for(i=1;i<=n;i++){
-        sum=sum+i;
-        
+        if(n%i==0){
+            cout<<i<<" ";
+        }
     }
-cout<<sum;
 }
