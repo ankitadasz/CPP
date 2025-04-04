@@ -1,0 +1,2 @@
+linear search is always o(n) where as bineary search keep dividing thr=e array thats why its o(logn)
+in linear search you find the index one by one where in binary search you have to take a sorted array and then you have to take the low and high index and find the mid and keep finding it till the value hasnt come
