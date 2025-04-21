@@ -1,7 +1,38 @@
- Method overloading means functions having same name but different parameters
- where we can us it??
- suppose we want to add number but not sure about how many numbers, at that time you dont need to make many function like addtwo addthree etc...
- you can simply make a function add and can given it different parameter then you dont need to call so many function in main function you can just call only one function and it will do the all work
- if the parameters are different and the function name is same then its method overloading but if the parameters are same but return type are different then its not method overloading they actuall the same function
+## Function Overloading in C++
 
- Function Overloading•If More than one functions can have same name, but different parameter list, then they are overloaded functions•Return the is not considered in overloading•Function overloading is used for achieving compile time polymorphismProgram to Demonstrate Function Overloading using Sum function#include<iostream>usingnamespace std;int sum(int a,int b){return a+b;}float sum(float a,float b){return a+b;}int sum(int a,int b,int c){return a,b,c;}int main(){ cout<<sum(10,5)<<endl; cout<<sum(12.5f,3.4f)<<endl; cout<<sum(10,20,3)<<endl;return0;}
+- **Method overloading** (or **function overloading**) means having **multiple functions with the same name** but **different parameters**.
+- This is useful when you want to perform the same operation with different numbers or types of arguments.
+- For example, if you're writing an `add` function, you don’t need to write `addTwo`, `addThree`, etc. — just overload the `add` function with different parameter sets.
+- **Note**: Overloading is based on the number or types of parameters — **not the return type**.
+
+### ✅ Key Points:
+- If more than one function has the same name but **different parameter lists**, they are **overloaded functions**.
+- **Return type is not considered** in overloading.
+- Function overloading helps achieve **compile-time polymorphism**.
+
+---
+
+### 🔢 Example: Function Overloading Using `sum` Function
+
+```cpp
+#include<iostream>
+using namespace std;
+
+int sum(int a, int b) {
+    return a + b;
+}
+
+float sum(float a, float b) {
+    return a + b;
+}
+
+int sum(int a, int b, int c) {
+    return a + b + c;
+}
+
+int main() {
+    cout << sum(10, 5) << endl;
+    cout << sum(12.5f, 3.4f) << endl;
+    cout << sum(10, 20, 3) << endl;
+    return 0;
+}
