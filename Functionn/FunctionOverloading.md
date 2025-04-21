@@ -3,3 +3,5 @@
  suppose we want to add number but not sure about how many numbers, at that time you dont need to make many function like addtwo addthree etc...
  you can simply make a function add and can given it different parameter then you dont need to call so many function in main function you can just call only one function and it will do the all work
  if the parameters are different and the function name is same then its method overloading but if the parameters are same but return type are different then its not method overloading they actuall the same function
+
+ Function Overloading•If More than one functions can have same name, but different parameter list, then they are overloaded functions•Return the is not considered in overloading•Function overloading is used for achieving compile time polymorphismProgram to Demonstrate Function Overloading using Sum function#include<iostream>usingnamespace std;int sum(int a,int b){return a+b;}float sum(float a,float b){return a+b;}int sum(int a,int b,int c){return a,b,c;}int main(){ cout<<sum(10,5)<<endl; cout<<sum(12.5f,3.4f)<<endl; cout<<sum(10,20,3)<<endl;return0;}
