@@ -1,5 +1,10 @@
-local variables are declared inside the function where as global variable are declared outside the function
-when the function is terminated the local variable also get terminated but the global variable doesnot
+# Local and Global Variables
 
-suppose you have declared a global variable g andd you do have a local variable g so suppose you increment th variable which variable will increment
-the variable which is nearest to the scope will got increment means the local variable will got incremented
+- **Local variables** are declared inside a function, whereas **global variables** are declared outside the function.
+- When a function is terminated, the local variables are also terminated, but the global variables are not.
+
+## Scope and Variable Increment
+
+- Suppose you have declared a global variable `g` and also have a local variable `g`.
+- If you increment the variable `g` inside the function, **the local variable will be incremented**.
+- This happens because **the variable nearest to the current scope is accessed first**, meaning the local variable takes precedence.
