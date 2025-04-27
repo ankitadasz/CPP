@@ -1,1 +1,11 @@
-Classes•Class is a blue print of an object•Class in a group of objects•Class is a design of object••Many object can be created from same class•Object consumes memory equal to sum of sizes of all data members•Member functions don’t occupy memory•Member functions are called depending on object•. Dot operator is used for accessing members of object•Memory allocated for object is also called as instance
+# Classes
+
+- **Class** is a blueprint of an object.
+- **Class** is a group of objects.
+- **Class** is a design of an object.
+- Many objects can be created from the same class.
+- An **object** consumes memory equal to the sum of the sizes of all its data members.
+- **Member functions** don’t occupy memory.
+- Member functions are called depending on the object.
+- The **dot operator** (`.`) is used for accessing members of an object.
+- Memory allocated for an object is also called an **instance**.
