@@ -15,15 +15,15 @@ public:
     }
 };
 /// THE OBJECT IS CREATED INSIDE STACK///
-// int main()
-// {
-//     Rectangle r;
-//     Rectangle *p;
-//     p = &r;
-//     p->length = 10;
-//     p->breadth = 20;
-//     cout << p->area();
-// }
+int main()
+ {
+    Rectangle r;
+    Rectangle *p;
+     p = &r;
+     p->length = 10;
+     p->breadth = 20;
+     cout << p->area();
+}
 /// THE OBJECT IS CREATED INSIDE HEAP///
 int main()
 {
