@@ -1,11 +1,34 @@
-In java you cant create object in stack but in C++ you can create object in java as well as c++
+Here's your content converted into **Markdown** format:
 
-method to create object:-
-in stack
-Rectangle r;
-in heap
-Rectangle *p=new Rectangle();
+```markdown
+## Object Creation in Java vs C++
 
-dot operator is used to access the member of the object using variable name whereas the -> operator is used to access the member of the object using pointer on an object
+### Java:
+- In Java, you **cannot** create an object on the stack.
+- Objects are **always created in the heap** using the `new` keyword.
 
-pointer takes 2 byte of memory but it depends upon the compiler so it can also take 4 byte
+### C++:
+- In C++, you **can** create objects both on the stack and the heap.
+
+### Methods to Create Objects in C++:
+
+- **In Stack:**
+  ```cpp
+  Rectangle r;
+  ```
+
+- **In Heap:**
+  ```cpp
+  Rectangle *p = new Rectangle();
+  ```
+
+### Accessing Members:
+
+- **Dot (`.`) Operator**: Used to access members using a variable name (i.e., non-pointer object).
+- **Arrow (`->`) Operator**: Used to access members through a pointer to an object.
+
+### Pointer Size:
+- A pointer typically takes **2 bytes** of memory.
+- However, this depends on the **compiler and system architecture**, so it can also be **4 bytes** or even **8 bytes** on 64-bit systems.
+```
+
