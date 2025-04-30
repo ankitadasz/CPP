@@ -1,1 +1,0 @@
-Data of a class should not be public if it is then there are so many chances of miss handling
