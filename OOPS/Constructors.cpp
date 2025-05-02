@@ -12,5 +12,12 @@ public:
         length = 0;
         breadth = 0;
     }
+    Rectangle(int l,int b){
+       setLength(l);
+       setBreadth(b); 
+    }
+    Rectangle(Rectangle & rect){
+        length=rect.length;
+        breadth=rect.breadth;
+    }
 };
-Rectangle r();
