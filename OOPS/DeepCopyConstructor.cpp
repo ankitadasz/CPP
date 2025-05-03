@@ -16,6 +16,6 @@ class Test{
 };
 
 int main(){
-    Test t(5);
+    Test t();
     
 }
