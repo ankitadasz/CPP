@@ -1,28 +1,49 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-class Base{
-    public:
-    int x;
-    void show(){
-        cout<<x;
+
+class Human
+{
+public:
+    int height;
+    int weight;
+    private:
+    int age;
+
+public:
+    int getAge()
+    {
+        return this->age;
     }
-    };
-    class Derived : public Base{
-        public:
-        int y;
-        void display(){
-            cout<<x<<" "<<y;
-        }
-    };
-int main(){
-    Base b;//object is created for class Base
-    b.x=25;
-    b.show();
-    Derived d;//object is created for class Derived
-    d.x=50;
-    d.y=90;
-    d.show();//it will call 50 value
-    d.display();
-    
-    
+    int setWeight(int w)
+    {
+        this->weight = w;
+    }
+};
+class male : public Human
+{
+public:
+    string color;
+
+    void sleep()
+    {
+        cout << "male sleeping";
+    }
+};
+
+int main()
+{
+
+    // male obj1;
+    // cout << obj1.age << endl;
+    // cout << obj1.height << endl;
+    // cout << obj1.weight << endl;
+    // cout << obj1.color << endl;
+    // obj1.sleep();
+    // cout << endl;
+    // obj1.setWeight(87);
+    // cout << obj1.weight << endl;
+    male m1;
+    cout<<m1.height;
+      
+    return 0;
 }
