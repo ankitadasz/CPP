@@ -30,3 +30,7 @@ Types of Inheritance
 -hirarichal
 -Hybrid
 
+Inheritance Ambiguity-
+suppose we have a class c which is inheriting the calss a and b,,,and a and b both have function having same name ,so when we will make a object of c and call the function then which function it will call ? because we have same name function in that case scope is used
+C.A::func1()
+C.B::func1()
