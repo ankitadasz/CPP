@@ -19,3 +19,14 @@ in parent:protected  in child:private    then it will be private
 in parent:private  in child:public     then it will be not accessible
 in parent:private  in child:rotected   then it will be not accessible
 in parent:private  in child:private    then it will be not accessible
+
+protected is kind of like private
+you can access it inside a class and if you inherit a child class then also u can use it inside the child class
+
+Types of Inheritance
+-single
+-multilevel
+-multiple
+-hirarichal
+-Hybrid
+

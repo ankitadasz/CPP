@@ -3,8 +3,9 @@ using namespace std;
 
 class Human
 {
-public:
+    public:
     int height;
+    
     int weight;
     private:
     int age;
@@ -28,6 +29,9 @@ public:
     {
         cout << "male sleeping";
     }
+    int getHeight(){
+        return this->height;
+    }
 };
 
 int main()
@@ -43,7 +47,7 @@ int main()
     // obj1.setWeight(87);
     // cout << obj1.weight << endl;
     male m1;
-    cout<<m1.height;
+    cout<<m1.getHeight()<<endl;
       
     return 0;
 }
