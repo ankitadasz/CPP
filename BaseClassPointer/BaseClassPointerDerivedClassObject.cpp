@@ -15,7 +15,8 @@ class Derived:public Base{
 int main(){
 
 
-    Base b;
-    Derived *ptr=&b;
+    Derived b;
+    Base *ptr=&b;
+    ptr->fun1();
     return 0;
 }
