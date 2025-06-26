@@ -2,7 +2,7 @@
 using namespace std;
 class Base{
     public:
-      void fun(){
+     virtual void fun(){
         cout<<"fun of base"<<endl;
     }
 };
