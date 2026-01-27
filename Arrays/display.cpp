@@ -1,18 +1,20 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
-    int i,n=5;
+int main()
+{
+    int n, i;
+    cout << "Enter the no of elements you want to enter:";
+    cin >> n;
     int a[n];
-    cout<<"Enter the value of array element";
-    cout<<endl;
-for(i=0;i<n;i++){
-    cin>>a[i];
-
-}
-for(i=0;i<n;i++){
-    cout<<a[i];
-    cout<<endl;
-    
-}
-
+     cout << "Enter the elements you want to enter:";
+    cout << endl;
+    for (i = 0; i < n; i++)
+    {
+        cin >> a[i];
+    }
+     cout << "Elements of the array are:";
+    for (i = 0; i < n; i++)
+    {
+        cout << a[i]<<" ";
+    }
 }
