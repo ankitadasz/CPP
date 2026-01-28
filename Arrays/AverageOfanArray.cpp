@@ -1,11 +1,19 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int i,j,avg,sum=0;
-    int a[]={1,2,3,4,5,6};
-    for(i=0;i<6;i++){
-           sum=sum+a[i];
-        }
-        avg=sum/6;
-        cout<<avg;
+    int i,n=5,sum=0,avg;
+    int a[n];
+    cout<<"Enter the elements of the array:";
+    for(i=0;i<n;i++){
+        cin>>a[i];
     }
+    cout<<"The avg of the array elements are:";
+     for(i=0;i<n;i++){
+        sum=sum+a[i];
+    }
+    avg=sum/n;
+    cout<<avg;
+
+
+
+}
