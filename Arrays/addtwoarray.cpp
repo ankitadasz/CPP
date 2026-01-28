@@ -2,12 +2,13 @@
 using namespace std;
 int main(){
     int i,j;
-    int a[2][3]={1,2,3,4,5,6},b[2][3]={1,2,3,4,5,6},c[2][3];
+    int a[2][2]={1,2,3,4},b[2][2]={1,2,3,4},c[2][2];
     for(i=0;i<2;i++){
-    for(j=0;j<3;j++){
-        c[i][j]=a[i][j]+b[i][j];
-        cout<<c[i][j]<<" ";
+        for(j=0;j<2;j++){
+            c[i][j]=a[i][j]+b[i][j];
+            cout<<c[i][j]<<" ";
+        }
+        cout<<endl;
     }
-    cout<<endl;
-    }
+
 }
